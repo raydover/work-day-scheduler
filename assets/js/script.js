@@ -11,4 +11,29 @@ $(document).ready(function () {
         localStorage.setItem(time, text);
     })
 
-    
+    function trackTime() {
+
+
+
+
+
+
+    }
+
+    // Retrive items from local storage, input details
+    $("#hour9 .details").val(localStorage.getItem("hour9"));
+    $("#hour10 .details").val(localStorage.getItem("hour9"));
+    $("#hour11 .details").val(localStorage.getItem("hour9"));
+    $("#hour12 .details").val(localStorage.getItem("hour9"));
+    $("#hour1 .details").val(localStorage.getItem("hour9"));
+    $("#hour2 .details").val(localStorage.getItem("hour9"));
+    $("#hour3 .details").val(localStorage.getItem("hour9"));
+    $("#hour4 .details").val(localStorage.getItem("hour9"));
+    $("#hour5 .details").val(localStorage.getItem("hour9"));
+    $("#hour9 .details").val(localStorage.getItem("hour9"));
+
+    trackTime();
+
+
+
+})
