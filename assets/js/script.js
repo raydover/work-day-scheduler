@@ -20,7 +20,7 @@ $(document).ready(function () {
 
     }
 
-    // Retrive items from local storage, input details
+    // Set get items from local storage, input details
     $("#hour9 .details").val(localStorage.getItem("hour9"));
     $("#hour10 .details").val(localStorage.getItem("hour9"));
     $("#hour11 .details").val(localStorage.getItem("hour9"));
