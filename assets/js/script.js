@@ -5,7 +5,7 @@ $("#currentDay").text(today.format("dddd, MMMM Do"));
 // Set click listener for save button, get values of description element and save input text in local storage
 $(document).ready(function () {
     $(".saveBtn").on("click", function () {
-        var text = $(this).sibling(".description").val();
+        var text = $(this).siblings(".description").val();
         var time = $(this).parent().attr("id");
 
         localStorage.setItem(time, text);
@@ -19,21 +19,17 @@ $(document).ready(function () {
             var timeBlock = parseInt($(this).attr("id").split("hour")[1]);
 
             // Check time, ad background color indicators, past, present, future
-            if (timeBlock < timeCurrent) {
+            if (timeCurrent > timeBlock) {
                 $(this).removeClass("furture");
                 $(this).removeClass("present");
                 $(this).addClass("past");
 
-            }
-
-            else if (timeBlock === timeCurrent) {
+            } else if (timeCurrent === timeBlock) {
                 $(this).removeClass("past");
                 $(this).removeClass("future");
                 $(this).addClass("present");
 
-            }
-
-            else {
+            } else {
                 $(this).removeClass("present");
                 $(this).removeClass("past");
                 $(this).addClass("future");
