@@ -11,12 +11,17 @@ $(document).ready(function () {
         localStorage.setItem(time, text);
     })
 
+    // Set up Fuction to track time, moment.js to format variable, which hour. JQuery time-block & loop over
     function trackTime() {
+        var timeCurrent = moment().hour();
 
+        $(".time-block").each(function () {
+            var timeBlock = parseInt($(this).attr("id").split("hour")[1])
 
+            console.log(timeBlock)
+            }
 
-
-
+        })
 
     }
 
