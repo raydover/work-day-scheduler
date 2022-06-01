@@ -19,7 +19,7 @@ The assignement requires students to create a simple calnder application  that a
 
 ## Visuals
 
-![Horiseon Screenshot](./placeholder for your screenshot image file)
+![Horiseon Screenshot](./assets/Work-Day-Scheduler.png)
 
 ## Authors and Acknowledgements
 
