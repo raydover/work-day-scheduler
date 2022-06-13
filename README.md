@@ -19,7 +19,7 @@ The assignement requires students to create a simple calnder application  that a
 
 ## Visuals
 
-![Work Day Scheduler Screenshot](assets/work-day-scheduler.png)
+![Work Day Scheduler Screenshot](./assets/Work-Day-Scheduler.png)
 
 ## Authors and Acknowledgements
 
