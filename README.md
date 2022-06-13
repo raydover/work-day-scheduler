@@ -19,7 +19,7 @@ The assignement requires students to create a simple calnder application  that a
 
 ## Visuals
 
-![Work Day Scheduler Screenshot](/Users/raymonddover/Bootcamp/Homework/work-day-scheduler/assets/work-day-scheduler.png)
+![Work Day Scheduler Screenshot](assets/work-day-scheduler.png)
 
 ## Authors and Acknowledgements
 
