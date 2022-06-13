@@ -13,13 +13,13 @@ The assignement requires students to create a simple calnder application  that a
 
 ## Resources
 
--[LIVE SITE](https://github.com/raydover/work-day-scheduler)
+-[LIVE SITE](https://raydover.github.io/work-day-scheduler/)
 
--[Repository](https://git@github.com:raydover/work-day-scheduler.git)
+-[Repository](https://github.com/raydover/work-day-scheduler)
 
 ## Visuals
 
-![Horiseon Screenshot](./assets/Work-Day-Scheduler.png)
+![Horiseon Screenshot](./assets/work-day-scheduler.png)
 
 ## Authors and Acknowledgements
 

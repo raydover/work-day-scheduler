@@ -1,6 +1,6 @@
 // Use moment.js to format the variable today to output current day of the week, month, day to html
 var today = moment();
-$("#currentDay").text(today.format("dddd, MMMM Do"));
+$("#currentDay").text(today.format("dddd, MMMM Do, YYYY"));
 
 // Set click listener for save button, get values of description element and save input text in local storage
 $(document).ready(function () {
@@ -9,10 +9,10 @@ $(document).ready(function () {
         var time = $(this).parent().attr("id");
 
         localStorage.setItem(time, text);
-    })
+    });
 
     // Set up Fuction to track time, moment.js to format variable, which hour. JQuery time-block & loop over
-    function trackTime() {
+    function blockTime() {
         var timeCurrent = moment().hour();
 
         $(".time-block").each(function () {
@@ -33,11 +33,8 @@ $(document).ready(function () {
                 $(this).removeClass("present");
                 $(this).removeClass("past");
                 $(this).addClass("future");
-
             }
-
-        })
-
+        });
     }
 
     // Set get items from local storage, input details
@@ -51,8 +48,6 @@ $(document).ready(function () {
     $("#hour4 .description").val(localStorage.getItem("hour4"));
     $("#hour5 .description").val(localStorage.getItem("hour5"));
 
-    trackTime();
+    blockTime();
 
-
-
-})
+});
